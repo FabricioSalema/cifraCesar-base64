@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="/js/script.js" defer></script>
+    <title>Cipher Defect</title>
+</head>
+<body>
+    <header>
+        <h1>Cipher Defect</h1>
+    </header>
+    <main>
+        <form action="">
+            <div class="radio">
+                <div class="internas">
+                    <input type="radio" name="radio1" id="cesar">
+                    <label for="cesar">Cifra de César</label>
+                </div>
+                <div class="internas">
+                    <input type="radio" name="radio1" id="base64">
+                    <label for="base64">Base64</label>
+                </div>
+            </div>
+            <input type="text" name="texto" id="texto" placeholder="Insira aqui o texto">
+            <input type="text" name="incremento" id="incremento" placeholder="Insira o incremento">
+            <div class="radio">
+                <div class="internas">
+                    <input type="radio" name="radio2" id="codificar">
+                    <label for="codificar">Codificar</label>
+                </div>
+                <div class="internas">
+                    <input type="radio" name="radio2" id="decodificar">
+                    <label for="decodificar">Decodificar</label>
+            </div>
+            </div>
+        </form>
+        <button type="submit" id="codificarB" onclick="alerta()">Codificar</button>
+        <button type="submit" id="decodificarB" onclick="alerta()">Decodificar</button>
+        <div class="resultado">
+            <h2></h2>
+        </div>
+    </main>
+</body>
+</html>

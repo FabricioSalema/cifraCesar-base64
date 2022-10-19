@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: black;
+    background-image: url(../imagens/hackerBlack&Blue2.png);
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 110px;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 0;
+}
+
+main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    margin: 0 0 0 50%;
+}
+
+form .radio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+form .radio .internas {
+    font-size: larger;
+}
+
+form .radio .internas input {
+    scale: 1.5;
+    margin: 20% 0;
+}
+
+form .radio .internas input:hover {
+    scale: 1.8;
+    cursor: pointer;
+}
+
+form .radio .internas label:hover {
+    cursor: pointer;
+}
+
+form input {
+    text-align: center;
+    font-size: larger;
+    color: black;
+    font: bolder;
+    border-radius: 10px;
+    border: solid 2px blue;
+    margin-top: 2%;
+}
+
+#incremento {
+   display: none;
+}
+
+form #texto {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 5%;
+    word-break: break-all;
+    overflow: auto;
+}
+
+button {
+    height: 50px;
+    width: 10%;
+    border-style: none;
+    border-radius: 10px;
+    border: solid 2px blue;
+    font-size: larger;
+    margin: 2% 0 0 50%;
+}
+
+button:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#codificarB, #decodificarB{
+    display: none;
+}
+
+.resultado {
+    margin: 2% 0 1% 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 2px blue;
+    width: 35%;
+    height: 160px;
+    padding: 1%;
+    word-break: break-all;
+    overflow: auto;
+}
